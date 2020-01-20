@@ -22,3 +22,4 @@ phases:
       - printf '[{"name":"TD-test-container","imageUri":"%s"}]' ${IMAGE_REPO_NAME}:${IMAGE_TAG} > imagedefinitions.json
 artifacts:
   files: imagedefinitions.json
+
